@@ -457,9 +457,14 @@
   {
     "key": "space w",
     "command": "workbench.action.files.save",
-    "when": "editorTextFocus"
+    "when": "editorTextFocus && vim.mode == 'Normal'"
   },   
-  
+  {
+    "key": "space q",
+    "command": "workbench.action.closeActiveEditor",
+    "when": "editorTextFocus && vim.mode == 'Normal'"
+  }
+
   //
   // BRACKET KEYS NOT WORKING ([d, ]d, etc.):
   //
