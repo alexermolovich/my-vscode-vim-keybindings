@@ -452,7 +452,13 @@
   {
     "key": "ctrl+5",
     "command": "workbench.action.focusFifthEditorGroup"
-  }
+  },
+
+  {
+    "key": "space w",
+    "command": "workbench.action.files.save",
+    "when": "editorTextFocus"
+  },   
   
   //
   // BRACKET KEYS NOT WORKING ([d, ]d, etc.):
